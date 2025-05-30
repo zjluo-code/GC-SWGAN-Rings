@@ -3,6 +3,7 @@ Instructions for the Galaxy Ring Detection Program Based on the Semi-Supervised 
 Program Name: GC_SWGAN_ring.py
 
 1）Program Overview
+
 This program is based on the semi-supervised deep learning model GC-SWGAN proposed in the paper "Galaxy Morphology Classification via Deep Semi-Supervised Learning with Limited Labeled Data" (https://arxiv.org/abs/2504.00500v2). The original model can be found at https://github.com/zjluo-code/GC-SWGAN. According to the requirements of the task, we have modified the program, and the modified version is named GC_SWGAN_ring.py. It is designed to automatically detect galactic ring structures from high-resolution galaxy images in the DESI Legacy Imaging Surveys (DESI-LS). The program employs a semi-supervised learning framework, combining a small amount of labeled data with a large amount of unlabeled data to achieve efficient identification of galactic rings and has generated a large catalog containing 62,962 ringed galaxies. 
 
 For further details about the code, please refer to our paper: "Detecting Galactic Rings in the DESI Legacy Imaging Surveys with Semi-Supervised Deep Learning."
